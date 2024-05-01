@@ -1,0 +1,91 @@
+:root{
+    --cor1: #413E34;
+    --cor2: #ebc024;
+    --cor3: #45486B;
+    --cor4: #2E51DB;
+    --cor5: #495586;
+    --cor6: #2D2E33;
+}
+
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: var(--cor1);
+    min-width: 700px;
+    max-width: 2000px;
+    margin: auto;
+}
+
+header{
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 2px;
+    background-color: var(--cor3);
+    color: var(--cor2);
+    background-image: linear-gradient(to bottom, var(--cor6), var(--cor3), var(--cor5));
+    box-shadow: 2px 2px 0px rgb(34, 33, 33);
+}
+
+footer{
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    background-color: var(--cor2);
+    color:  var(--cor1);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 5px 5px 0px rgb(34, 33, 33);
+}
+
+header nav {
+    text-align: center;
+    background-color: var(--cor2);
+    color: whitesmoke;
+    
+    box-shadow: 2px 2px 0px rgb(34, 33, 33);
+}
+
+header a{
+    text-decoration: none;
+    padding: 7px;
+}
+
+header a:hover{
+    color: #2D2E33;
+}
+
+main{
+    margin: 50px;
+    padding: 100px;
+    background-color: whitesmoke;
+    color: --cor1;
+    padding-top: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    box-shadow: 5px 5px 0px rgb(34, 33, 33);
+}    
+
+main h2{
+    color: var(--cor3);
+    background-image: linear-gradient(to right, var(--cor2), transparent)
+}
+
+main h3{
+    color: var(--cor3)
+}
+    
+main iframe{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    }
+
+main div{
+    text-align: center;
+}
+
+main p{
+    text-align: justify;
+    text-indent: 32px;
+    line-height: 1.5em;
+}
